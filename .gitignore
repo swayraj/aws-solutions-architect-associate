@@ -1,0 +1,17 @@
+# Terraform local state and lock files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+tfplan*
+*.tfvars
+!terraform.tfvars.example
+
+# Operating System metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Local scratchpads or temporary logs
+references/scratch/
+*.log
